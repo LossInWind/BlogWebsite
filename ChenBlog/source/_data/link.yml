@@ -1,0 +1,32 @@
+
+
+- class_name: Chen的其他网站
+  class_desc: 
+  link_list:
+    - name: GPT部署网站
+      link: http://www.gpt.haichen.work/
+      avatar: /img/link图标/GPT.svg
+      descr: 需要haichen提供账号密码，或自己提供api
+    - name: NewBing部署网站
+      link: http://www.chat.haichen.work/
+      avatar: /img/link图标/Bing.svg
+      descr: 不用再清理浏览器缓存直接用即可
+    - name: VPN管理面板
+      link: http://www.vpn.haichen.work/
+      avatar: /img/link图标/VPN.svg
+      descr: 自建vpn
+    - name: 小红书
+      link: https://www.xiaohongshu.com/user/profile/5c3235950000000005015db0
+      avatar: /img/link图标/小红书.svg
+      descr: 照片/日常
+
+- class_name: 博客使用网站
+  class_desc:
+  link_list:
+    - name: 图标网站
+      link: https://fontawesome.com/
+      avatar: /img/link图标/font-awesome-solid.svg
+      descr: 免费图标网站/free icon
+
+
+

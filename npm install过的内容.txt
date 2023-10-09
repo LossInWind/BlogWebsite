@@ -1,0 +1,2 @@
+#安装本地搜索
+npm install hexo-generator-search --save

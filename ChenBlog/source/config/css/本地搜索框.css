@@ -1,0 +1,14 @@
+/*本地搜索美化*/
+.search-dialog .search-nav {
+    color: #000000;
+    font-size: 1.6em;
+    line-height: 2;
+}
+#local-search .search-dialog .local-search-box input {
+  padding: 13px 21px;
+  border: 3px solid #4182d9;
+  border-radius: 11px;
+}
+hr {
+  border: 3px dashed #4f80d8;
+}
