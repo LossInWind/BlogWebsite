@@ -24,6 +24,10 @@ jobs:
         uses: actions/setup-node@v1
         with:
           node-version: '12'
+          
+      - name: 安装 Hexo CI
+        run: 
+          export TZ='Asia/Shanghai' npm install hexo-cli -g
 
       # 安装依赖
       - name: Install Dependencies
