@@ -23,6 +23,11 @@ jobs:
       - name: Change to ChenBlog directory
         run: cd ChenBlog 
 
+      - name: Display Current Working Directory
+        run: |
+          pwd
+
+
       # 这里用的是 Node.js 13.x，14.x 生成 Hexo 静态页面会有问题
       - name: Set up Node.js
         uses: actions/setup-node@v1
