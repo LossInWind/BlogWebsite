@@ -22,16 +22,6 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
 
-     
-
-      - name: Display Current Working Directory
-        run: |
-          pwd
-      - name: List Files in Current Directory
-        run: |
-          ls
-
-
       # 这里用的是 Node.js 13.x，14.x 生成 Hexo 静态页面会有问题
       - name: Set up Node.js
         uses: actions/setup-node@v1
@@ -63,4 +53,4 @@ jobs:
       # 生成并部署 `npx hexo clean && npx hexo g -d` or `npm run deploy`
       - name: Deploy
         run: |
-          hexo version && hexo clean
+          hexo version && hexo clean && hexo g && hexo s 
