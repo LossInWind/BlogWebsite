@@ -19,9 +19,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
 
-      # 进入 ChenBlog 子目录
-      - name: Change to ChenBlog directory
-        run: cd BlogWebsite/ChenBlog
+     
 
       - name: Display Current Working Directory
         run: |
@@ -30,6 +28,9 @@ jobs:
         run: |
           ls
 
+ # 进入 ChenBlog 子目录
+      - name: Change to ChenBlog directory
+        run: cd BlogWebsite/ChenBlog
 
 
       # 这里用的是 Node.js 13.x，14.x 生成 Hexo 静态页面会有问题
