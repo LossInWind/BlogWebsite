@@ -21,7 +21,7 @@ jobs:
 
       # 进入 ChenBlog 子目录
       - name: Change to ChenBlog directory
-        run: cd ChenBlog
+        run: cd BlogWebsite/ChenBlog
 
       - name: Display Current Working Directory
         run: |
