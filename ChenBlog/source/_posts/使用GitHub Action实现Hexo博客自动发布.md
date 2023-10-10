@@ -1,14 +1,14 @@
 ---
 abbrlink: ''
 categories:
-  - 博客
-  - 创建博客
+    - 博客
+    - 创建博客
 date: '2023-10-10T19:05:50.668291+08:00'
 description: 使用GitHub Action实现Hexo博客自动发布
 tags:
-- 博客
-- githubpage
-- GitHub Action
+    - 博客
+    - githubpage
+    - GitHub Action
 title: 使用GitHub Action实现Hexo博客自动发布
 updated: 2023-10-10T19:47:2.2+8:0
 ---
