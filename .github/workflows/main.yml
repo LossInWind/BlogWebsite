@@ -26,6 +26,10 @@ jobs:
       - name: Display Current Working Directory
         run: |
           pwd
+      - name: List Files in Current Directory
+        run: |
+          ls
+
 
 
       # 这里用的是 Node.js 13.x，14.x 生成 Hexo 静态页面会有问题
