@@ -1,8 +1,8 @@
 ---
 abbrlink: ''
 categories:
-- - 博客
-- - 博客 -创建博客
+  - 博客
+  -创建博客
 date: '2023-10-10T19:05:50.668291+08:00'
 description: 使用GitHub Action实现Hexo博客自动发布
 tags:
