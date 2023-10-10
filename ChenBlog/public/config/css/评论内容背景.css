@@ -1,0 +1,6 @@
+/*评论背景*/
+#twikoo .tk-content {
+  background: rgb(213 213 213 / 60%);
+  padding: 10px 15px;
+  border-radius: 7px;
+}
