@@ -4,17 +4,25 @@
   class_desc: 
   link_list:
     - name: GPT部署网站
-      link: http://www.gpt.haichen.work/
+      link: https://gpt.haichen.website/
       avatar: /img/link图标/GPT.svg
       descr: 需要haichen提供账号密码，或自己提供api
+      
     - name: NewBing部署网站
-      link: http://www.chat.haichen.work/
+      link: https://chat.haichen.website/
       avatar: /img/link图标/Bing.svg
       descr: 不用再清理浏览器缓存直接用即可
+      
+    - name: 博客管理网站
+      link: https://edit.haichen.website/
+      avatar: /img/link图标/pen.svg
+      descr: qexo管理面板
+      
     - name: VPN管理面板
-      link: http://www.vpn.haichen.work/
+      link: https://vpn.haichen.website/
       avatar: /img/link图标/VPN.svg
       descr: 自建vpn
+      
     - name: 小红书
       link: https://www.xiaohongshu.com/user/profile/5c3235950000000005015db0
       avatar: /img/link图标/小红书.svg
@@ -27,6 +35,17 @@
       link: https://fontawesome.com/
       avatar: /img/link图标/font-awesome-solid.svg
       descr: 免费图标网站/free icon
+
+    - name: cloudflare网站加速
+      link: https://dash.cloudflare.com/
+      avatar: /img/link图标/cloudflare.svg
+      descr: 免费dns解析
+
+    - name: sm.ms免费图床
+      link: https://smms.app/
+      avatar: /img/link图标/image.svg
+      descr: 国内可用的免费图床
+      
 
 
 
