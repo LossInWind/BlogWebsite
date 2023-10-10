@@ -13,6 +13,9 @@ env:
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: ./ChenBlog
 
     steps:
       # 获取博客源码和主题
@@ -27,10 +30,6 @@ jobs:
       - name: List Files in Current Directory
         run: |
           ls
-
- # 进入 ChenBlog 子目录
-      - name: Change to ChenBlog directory
-        run: cd BlogWebsite/ChenBlog
 
 
       # 这里用的是 Node.js 13.x，14.x 生成 Hexo 静态页面会有问题
