@@ -2,7 +2,7 @@
 abbrlink: ''
 categories:
 - - 博客
-- - 创建博客
+- - 博客 -创建博客
 date: '2023-10-10T19:05:50.668291+08:00'
 description: 使用GitHub Action实现Hexo博客自动发布
 tags:
@@ -10,13 +10,14 @@ tags:
 - githubpage
 - GitHub Action
 title: 使用GitHub Action实现Hexo博客自动发布
-updated: 2023-10-10T19:5:50.177+8:0
+updated: 2023-10-10T19:47:2.2+8:0
 ---
 ## 基本信息
 
-| **服务器选择** | GitHub | **博客时间** | 2023.10.10 |
-| --- | --- | --- | --- |
-| **搭建结果** | 使用GitHub Action实现Hexo博客自动发布 |  |  |
+
+| **服务器选择** | GitHub                                | **博客时间** | 2023.10.10 |
+| -------------- | ------------------------------------- | ------------ | ---------- |
+| **搭建结果**   | 使用GitHub Action实现Hexo博客自动发布 |              |            |
 
 ## 准备
 
@@ -97,7 +98,7 @@ jobs:
         uses: actions/setup-node@v1
         with:
           node-version: '12'
-          
+        
       - name: 安装 Hexo CI
         run: 
           npm install hexo-cli -g --no-fund && npm install hexo-server --save --no-fund
@@ -202,4 +203,3 @@ jobs:
 [记录github action自动部署hexo butterfly](https://www.maya1900.top/createsite/0430/)
 [Hexo 自动部署](https://www.oplog.cn/archives/24998.html)
 [通過travis-ci或者GitHub Actions自動化部署GitHub Pages和Coding Pages](https://blog.crazywong.com/posts/74006f42/#%E5%89%B5%E5%BB%BAActions)
-
