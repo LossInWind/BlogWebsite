@@ -30,7 +30,7 @@ jobs:
           
       - name: 安装 Hexo CI
         run: 
-          npm install hexo-cli -g –no-fund && npm install hexo-server --save –no-fund
+          npm install hexo-cli -g && npm install hexo-server --save
 
       # 安装依赖
       - name: Install Dependencies
