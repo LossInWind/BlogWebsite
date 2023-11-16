@@ -1,12 +1,12 @@
 ---
 abbrlink: ''
 categories:
-- - 学习
-- - 代码知识
+  - 学习
+  - 代码知识
 date: '2023-11-16T15:40:51.781823+08:00'
 description: 简便计算FID,ISC,KID,PPL
 tags:
-- pytorch
+  - pytorch
 title: '简便计算FID,ISC,KID,PPL：torch-fidelity '
 updated: 2023-11-16T15:40:51.935+8:0
 ---
