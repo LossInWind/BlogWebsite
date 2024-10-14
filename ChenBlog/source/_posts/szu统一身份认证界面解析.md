@@ -10,9 +10,10 @@ tags:
 - CAS
 - 抓包
 title: szu统一身份认证界面解析
-updated: 2023-10-12T16:5:46.167+8:0
+updated: 2024-10-15T1:43:14.901+8:0
 ---
 ## 基本信息
+
 
 | **语言/知识点** | cas、python              | **博客时间** | 2023.10.12 |
 | --------------- | ------------------------ | ------------ | ---------- |
@@ -98,8 +99,8 @@ service: https://ehall.szu.edu.cn:443/login?service=https://ehall.szu.edu.cn/new
 表单数据：
 
 ```http
-username: 2210433109
-password: MukNAJb1ti4x93ujn0jcK5KaxdVSjsoO8ksDoyRvtUDqIfvTvxcdmm3kTYH5NCxZY1VMsD3mbddh2ZQ2BDXSK24LAjsfOeEll6cwQU5aEIc=
+username: 2210111111
+password: MukNAJb1ti4x93ujn0jcK5KaxdVSjsoOAJb1ti4x93ujn0jcK5KaAJb1ti4x93ujn0jcK5KaxdVSjsoOAJb1ti4x93SjsAJb1ti4x93ujn0jcK5KaVSjsoO=
 lt: LT-412239-fBpb6E51MWcxpQvfsTwcrdM7jGsqA31697093632120-SjdO-cas
 dllt: userNamePasswordLogin
 execution: e2s1
@@ -394,4 +395,3 @@ ticket验证通过后，会返回重定向地址指向最初请求的资源（`h
 ## 参考链接
 
 [实现内网CAS统一认证登录](https://blog.csdn.net/zhutou_xu/article/details/114212377)
-
